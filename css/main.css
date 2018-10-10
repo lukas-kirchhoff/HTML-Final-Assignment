@@ -12,6 +12,14 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Oxygen', Arial, sans-serif;
+}
+
 #nav-bar {
     width: 100%;
     display: inline-block;
@@ -27,4 +35,34 @@ a {
     padding: 8px;
     border: 1px solid;
     color: #313131;
+}
+
+.content-box {
+    width: 48%;
+    float: left;
+    display: inline-block;
+    background-color: #ECECEC;
+    margin: 1%;
+    border: 1px solid #313131;
+}
+
+.content-box__image-section {
+    width: 50%;
+    float: left;
+}
+
+.content-box__text-section {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.content-box__more-button--link {
+    padding: 10px;
+    display: inline-block;
+    background-color: #313131;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 15px;
+    width: 100%;
 }
