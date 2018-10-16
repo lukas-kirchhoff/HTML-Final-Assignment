@@ -1,0 +1,31 @@
+body{
+    color: #ffffff;
+}
+
+.main__content {
+    width: 100%;
+    height: 300px;
+    background-color: #101010;
+    margin-top: -5px;
+    padding-top: 50px;
+}
+
+.centered{
+    width: 100%;
+    text-align: center;
+}
+
+.large-headline{
+    font-size: 80px;
+}
+
+.compare-phones{
+    background-color: #141414;
+    height: 200px;
+    width: 100%;
+}
+
+.comparison__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
