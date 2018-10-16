@@ -53,6 +53,7 @@ body {
     overflow: hidden;
     padding: 20px;
     background-color: #fff;
+    text-align: center;
 }
 
 .content-box__text-section {
