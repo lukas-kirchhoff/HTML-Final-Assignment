@@ -48,7 +48,11 @@ body {
 
 .content-box__image-section {
     width: 50%;
+    height: 310px;
     float: left;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
 }
 
 .content-box__text-section {
@@ -65,4 +69,11 @@ body {
     border-radius: 6px;
     margin-top: 15px;
     width: 100%;
+}
+
+
+
+.content-box__image-section img {
+    width: auto;
+    height: 100%;
 }
