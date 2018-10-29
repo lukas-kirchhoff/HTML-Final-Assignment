@@ -81,7 +81,7 @@ body {
 
 .content_box1 {
 	height: 500px;
-	width: 950px;
+	width: 50%;
 	float: left;
 }
 
@@ -123,7 +123,7 @@ body {
 
 .content_box2 {
 	height: 500px;
-	width: 950px;
+	width: 50%;
 	float: left;
 }
 
@@ -136,7 +136,7 @@ body {
 
 .content_box3 {
 	height: 500px;
-	width: 950px;
+	width: 50%;
 	float: left;
 }
 
