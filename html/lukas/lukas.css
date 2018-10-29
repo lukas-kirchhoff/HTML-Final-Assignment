@@ -46,6 +46,12 @@ body {
     font-size: 13px;
 }
 
+.second-image {
+    margin-top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
 .phone a {
     text-decoration: underline;
 }
@@ -53,10 +59,11 @@ body {
 .fade-in--left {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
-    -webkit-animation-duration: 6s;
-    animation-duration: 6s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+    animation-delay: 2s;
 }
 
 .large-headline {
@@ -74,6 +81,7 @@ body {
 .full-height__wrapper {
     min-height: 100vh;
     height: 100%;
+    width: 100%;
     display: inline-block;
     border-bottom: 3px solid #141414;
 }
