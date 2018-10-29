@@ -114,10 +114,8 @@ img{
 }
 
 .content-box_img2{
-	height: 300px;
-	width: 500px;
+	width: auto;
 	margin-top: 100px;
-	padding-left: 225px;
 }
 
 .content-boxbig1{
