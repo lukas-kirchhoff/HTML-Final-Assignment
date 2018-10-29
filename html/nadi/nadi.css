@@ -98,3 +98,10 @@ body {
 .picture_s9 img{
 	padding-top: 100px;
 }
+
+.w3-hover-grayscale:hover
+{
+	filter: grayscale(80%);
+}
+
+
