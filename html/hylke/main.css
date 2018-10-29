@@ -96,6 +96,7 @@ body {
 	width: 50%;	
 	float: left;
 	text-align: center;
+	overflow: hidden;
 }
 
 .content-text{
@@ -164,3 +165,9 @@ h4{
 	font-size: 20px;
 	padding-bottom: 10px;
 }
+
+.img_box1{
+	height: auto;
+	width: 100%
+}
+
