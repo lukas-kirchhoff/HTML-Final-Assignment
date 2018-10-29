@@ -86,7 +86,7 @@ body {
 }
 
 .content_box1 img{
-	height: 500px;
+	height: 100%;
 	width: 950px; 	
 	float: left;
 }
@@ -180,4 +180,10 @@ body {
 .hylkestupid{
 		width: 70%;
 		margin: 0 auto;
+}
+
+.content-wrapper1{
+		height: auto;
+		width: 100%;
+		overflow: hidden;
 }
