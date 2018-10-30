@@ -57,6 +57,6 @@ label{
 }
 
 .section ul li{
-    list-style-type: square;
+    list-style-type: none;
 }
 
