@@ -1,0 +1,132 @@
+body {
+    color: #ffffff;
+    background-color: #101010;
+}
+
+.main_content {
+	background-image: url("../../img/huaweip10_test.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width:100%;
+	height: 1900px;
+	font-size: 30px;
+}
+.side_left{
+	width: 20%;
+	padding-top: 5%;
+	padding-left: 5%;
+	margin-right: 80%;
+	-webkit-animation: fadein 3s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 3s;
+    /* Internet Explorer */
+    -o-animation: fadein 3s;
+    /* Opera < 12.1 */
+    animation: fadein 3s;
+	float: left;
+}
+.side_right{
+	width: 20%;
+	padding-top: 5%;
+	padding-right: 5%;
+	margin-left: 80%;
+	-webkit-animation: fadein 5s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 5s;
+    /* Internet Explorer */
+    -o-animation: fadein 5s;
+    /* Opera < 12.1 */
+    animation: fadein 5s;
+	float: right;
+}
+.order_form{
+	text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.form_header{
+	font-size: 50px;
+}
+.submit_button{
+	margin-top: 20px;
+    width: 10%;
+    background-color: #cccccc;
+    padding: 10px 0px;
+    color: #141414;
+    border: 0px;
+}
+.amazon{
+	width: 20%;
+	height: 5%;
+	margin: 0 auto;
+	
+}
+.overlay {
+	width: 100%;
+	height: 20%;
+	opacity: 0.5;
+	transition: .5s ease;
+	float:left;
+}
+.amazon:hover .overlay{
+	opacity: 1;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
