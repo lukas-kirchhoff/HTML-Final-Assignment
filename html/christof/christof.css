@@ -4,48 +4,59 @@
     box-sizing: border-box;
 }
 
-body{
-	background: black;
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 
-
-.inside-navbar{
+#imagebox{
+    width: 100vw;
+    float: left;
     
 }
-#contentbox{
-    width: 100%
+#notetitle{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
 }
-#firstimg{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    width: 100%;
-}
-
-#firstimg img{
-	height: 800px;
+#contantbox{
+    background-color: black;
 }
 
-#frontimg{
-    float: left;
-    margin-left: 100px;
-    width: 1700px;
-}
-#notename{
-	color: white;
-}
 #content{
-	width: 100%;
-    display: flex;
-    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
+    color: white;
 }
 
 #container{
-	width: 900px;
-	float:left;
+    padding: 20px;
 }
 
-#gifbox{
+#phonegif{
+    width: 600px;
+    margin: 0 auto 50px auto;
 }
+
+.section{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section h2{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.section p{
+    margin-bottom: 10px;
+}
+
+.section ul li{
+    list-style-type: none;
+}
+
