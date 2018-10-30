@@ -3,6 +3,14 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
 #imagebox{
     width: 100vw;
     float: left;
@@ -17,3 +25,38 @@
 #contantbox{
     background-color: black;
 }
+
+#content{
+    width: 900px;
+    margin: 0 auto;
+    color: white;
+}
+
+#container{
+    padding: 20px;
+}
+
+#phonegif{
+    width: 600px;
+    margin: 0 auto 50px auto;
+}
+
+.section{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section h2{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.section p{
+    margin-bottom: 10px;
+}
+
+.section ul li{
+    list-style-type: square;
+}
+
