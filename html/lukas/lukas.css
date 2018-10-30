@@ -41,6 +41,12 @@ body {
 .information__content {
     background-color: #141414;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information__text {
+    flex-grow: 1;
 }
 
 .large-headline {
@@ -128,6 +134,10 @@ body {
     background-color: #141414;
 }
 
+.input-label {
+    margin-left: 10px;
+}
+
 .first__radio {
     margin-right: 4%;
 }
@@ -148,6 +158,15 @@ body {
     text-decoration: underline;
 }
 
+.button__more-information {
+    margin-top: 15px;
+    width: auto;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 12px;
+    background-color: #101010;
+    border-radius: 6px;
+}
 
 .large-headline {
     -webkit-animation: fadein 5s;
