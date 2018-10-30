@@ -1,6 +1,51 @@
-.main__content {
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+	background: black;
+}
+
+
+
+.inside-navbar{
+    
+}
+#contentbox{
+    width: 100%
+}
+#firstimg{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
     width: 100%;
-    background-color: #101010;
-    margin-top: -5px;
-    padding-top: 50px;
+}
+
+#firstimg img{
+	height: 800px;
+}
+
+#frontimg{
+    float: left;
+    margin-left: 100px;
+    width: 1700px;
+}
+#notename{
+	color: white;
+}
+#content{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+	width: 900px;
+	float:left;
+}
+
+#gifbox{
 }
