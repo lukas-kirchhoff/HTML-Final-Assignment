@@ -65,12 +65,12 @@ body {
 
 }
 
-.description_camera {
+.description_photos {
 	float: left;
 	padding-top: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 500px;
+	padding-bottom: 400px;
 	text-align: center;
 
 }
@@ -119,6 +119,54 @@ description_music_s9 {
 
 .amazon_button {
 	text-align: center;
-	
+	color: red;
 }
 
+.buttonwrap {
+	text-align: center;
+}
+
+.button{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: black;
+	color: white;
+}
+
+.button1:hover {
+	background-color: darkgray;
+}
+
+.description_spec_s9 {
+ 	text-align: center;
+	font-size: 40px;
+	padding-left: 3%;
+	padding-top: 100px;
+}
+
+.description_spec {
+
+	text-align: center;
+	font-size: 25px;
+}
+
+.breakp {
+	margin-bottom: 50px;
+}
+
+.breakhead{
+	margin-bottom: 7px;
+}
