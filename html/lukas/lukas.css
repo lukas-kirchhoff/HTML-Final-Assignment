@@ -22,6 +22,31 @@ body {
 .centered {
     width: 100%;
     text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.information__wrapper {
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    justify-content: space-around;
+    grid-row-gap: 27%;
+}
+
+.information__content {
+    background-color: #141414;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information__text {
+    flex-grow: 1;
 }
 
 .large-headline {
@@ -40,6 +65,83 @@ body {
     text-align: center;
 }
 
+.information__headline {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.from__wrapper {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.input__iphone {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: #141414;
+    border: 1px solid #ccc;
+    outline: 0px;
+    color: #ccc;
+}
+
+.input__select {
+    width: 100%;
+    height: 30px;
+    background-color: #141414;
+    outline: 0px;
+    color: #cccccc;
+}
+
+.submit-button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #cccccc;
+    padding: 10px 0px;
+    color: #141414;
+    border: 0px;
+}
+
+.iphone__video {
+    width: 100%;
+    height: auto;
+}
+
+.from__headline {
+    margin-bottom: 20px;
+    width: auto;
+    text-align: center;
+    color: #ccc;
+}
+
+::placeholder {
+    color: #cccccc;
+    font-size: 12px;
+}
+
+.input__radio {
+    padding: 12px;
+    width: 48%;
+    float: left;
+    border: 1px solid #ccc;
+    color: #cccccc;
+    font-size: 12px;
+    margin-bottom: 20px;
+    background-color: #141414;
+}
+
+.input-label {
+    margin-left: 10px;
+}
+
+.first__radio {
+    margin-right: 4%;
+}
+
 .phone h5,
 .phone a {
     color: #606060;
@@ -56,14 +158,14 @@ body {
     text-decoration: underline;
 }
 
-.fade-in--left {
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    animation-delay: 2s;
+.button__more-information {
+    margin-top: 15px;
+    width: auto;
+    display: inline-block;
+    color: #fff;
+    padding: 8px 12px;
+    background-color: #101010;
+    border-radius: 6px;
 }
 
 .large-headline {
@@ -86,17 +188,6 @@ body {
     border-bottom: 3px solid #141414;
 }
 
-@keyframes fadeInLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
 
 @keyframes fadein {
     from {

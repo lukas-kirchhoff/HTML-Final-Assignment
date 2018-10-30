@@ -61,15 +61,24 @@ body {
 	padding-top: 40px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 60px;
+	padding-bottom: 20px;
+
+}
+
+.description_photos {
+	float: left;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 400px;
+	text-align: center;
 
 }
 
 .description h2 {
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	padding-top: 60px;
-	color: mistyrose;
 }
 
 .description h1 {
@@ -79,20 +88,24 @@ body {
 
 .gifs9 p {
 	text-align: center;
-	
 }
 
 .underbox {
-	padding-top: 300px;
-	padding-bottom:300px;
+	padding-top: 350px;
+	padding-bottom:350px;
 	text-align: center;
 	font-size: 50px;
 }
 
-.description_vs h1{
+description_music_s9 {
+	padding-top: 40px;
+}
+
+.description_music_s9 h1{
 	text-align: center;
-	font-size: 30px;
+	font-size: 50px;
 	padding-left: 3%;
+	padding-top: 100px;
 }
 
 .picture_s9 img{
@@ -106,6 +119,64 @@ body {
 
 .amazon_button {
 	text-align: center;
-	
+	color: #ccc;
+
 }
 
+.buttonwrap {
+	text-align: center;
+}
+
+.button{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: black;
+	color: white;
+}
+
+.button1:hover {
+	background-color: darkgray;
+}
+
+.description_spec_s9 {
+ 	text-align: center;
+	font-size: 40px;
+	padding-left: 3%;
+	padding-top: 100px;
+}
+
+.description_spec {
+
+	text-align: center;
+	font-size: 25px;
+}
+
+.breakp {
+	margin-bottom: 50px;
+}
+
+.breakhead{
+	margin-bottom: 7px;
+}
+
+.formular {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.formular h1 {
+	color: #ccc;
+}
