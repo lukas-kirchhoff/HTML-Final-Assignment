@@ -148,37 +148,28 @@
 				</div>
 
 
-				<div class="formular">
-					<h1>Or order now:</h1>
-
-					<form method="post">  
-						Name: <input type="text" name="name">
-						<br><br>
-						E-mail: <input type="text" name="email">
-						<br><br>
-						Website: <input type="text" name="website">
-						<br><br>
-						Paying Method: <input type="text" name="paying">
-						<br><br>
-						Comment: <textarea name="comment" rows="5" cols="40"></textarea>
-						<br><br>
-						Colour:
-						<input type="radio" name="colour" value="black" required="required" >Black
-						<input type="radio" name="colour" value="rose" required="required" >Rose
-						<input type="radio" name="colour" value="white" required="required" >White
-						<br><br>
-						Choose your Model:
-						<select>
-							<option id="s9" value="s9">Samsung Galaxy S9</option>
-							<option id="s9+" value="s9+">Samsung Galaxy S9+</option>
-						</select>
-						<br><br>
-
-						<input type="submit" name="submit" value="Submit">  
-					</form>
-				</div>
-
-
+        <div class="from__wrapper">
+            <h2 class="from__headline">Choose your iPhone X</h2>
+            <form action="lukas.html" method="post">
+                <input class="input__iphone" type="text" placeholder="Name" />
+                <input class="input__iphone" type="text" placeholder="Email" />
+                <span class="input__radio first__radio">
+                    <input id="iphone" type="radio" name="iphone" value="Phone X" />
+                    <label class="input-label" for="iphone">iPhone X</label>
+                </span>
+                <span class="input__radio">
+                    <input id="iphonexs" type="radio" name="iphone" value="Phone Xs" />
+                    <label class="input-label" for="iphonexs">iPhone Xs</label>
+                </span>
+                <select class="input__select" name="iphoneSelect">
+                    <option selected disabled>Choose your storage</option>
+                    <option value="16GB">16GB</option>
+                    <option value="32GB">32GB</option>
+                    <option value="128GB">128GB</option>
+                </select>
+                <input class="submit-button" type="submit" name="submit" value="ORDER NOW!" />
+            </form>
+        </div>
 
 
 
