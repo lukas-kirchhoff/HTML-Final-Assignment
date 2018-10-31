@@ -101,6 +101,12 @@ body {
 
 .content-text{
 	padding-top: 200px;
+	padding-left: 50px;
+}
+
+.content-text1{
+	padding-top: 200px;
+	padding-right: 50px;
 }
 
 img{
@@ -110,13 +116,20 @@ img{
 
 .content-box_img1{
 	height: 500px;
-	width: 500px:
+	overflow: hidden;
 }
 
 .content-box_img2{
-	width: 450px;
+	width: 600px;
 	margin: 150px auto;
 	
+}
+
+.content-box_img3{
+	height: 500px;
+	width: 500px;
+	padding-top: 50px;
+	padding-left: 100px;
 }
 
 .content-boxbig1{
@@ -139,8 +152,17 @@ img{
 
 .content-form1{
 		padding-top: 100px;
+		padding-bottom: 100px;
 		text-align: center;
-		height: 500px;
+		height: 650px;
+		width: 100%;
+		float: left;
+}
+
+.content-specsbig{
+		padding-top: 100px;
+		text-align: center;
+		height: 1000px;
 		width: 100%;
 		float: left;
 }
@@ -167,6 +189,18 @@ h4{
 
 .img_box1{
 	height: auto;
-	width: 100%
+	width: 100%;
 }
 
+.img_box2{
+	height: auto;
+	width: 90%;
+}
+
+.content-specsbig h3{
+	padding-top: 30px;
+}
+
+.content-specsbig p{
+	padding-top: 10px;
+}
