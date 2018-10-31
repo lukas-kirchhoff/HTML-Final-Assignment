@@ -59,4 +59,14 @@ label{
 .section ul li{
     list-style-type: none;
 }
+.getmoreinfo{
+    text-align: center;
+    color: #dabdab;
+    margin: 15px;
+}
+.h2{
+    color: #dabdab;
+}
+
+
 
