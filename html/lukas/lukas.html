@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iPhone X</title>
     <link rel="stylesheet" type="text/css" href="../../css/main.css" />
     <link rel="stylesheet" type="text/css" href="lukas.css" />
@@ -14,13 +15,13 @@
     <nav id="nav-bar">
         <div class="inside-navbar">
             <ul>
-                <li><a class="nav-bar__link" href="index.html">Home</a></li>
-                <li><a class="nav-bar__link" href="#">Huawei P10</a></li>
-                <li><a class="nav-bar__link" href="#">Samsung Galaxy S9</a></li>
-                <li><a class="nav-bar__link" href="#">OnePlus 6</a></li>
-                <li><a class="nav-bar__link" href="#">iPhone X</a></li>
-                <li><a class="nav-bar__link" href="#">LG G6</a></li>
-                <li><a class="nav-bar__link" href="#">Samsung Galaxy Note 8</a></li>
+                <li><a class="nav-bar__link" href="../../index.html">Home</a></li>
+                <li><a class="nav-bar__link" href="../philip/philip.html">Huawei P10</a></li>
+                <li><a class="nav-bar__link" href="../nadi/nadi.html">Samsung Galaxy S9</a></li>
+                <li><a class="nav-bar__link" href="../hylke/hylke.html">OnePlus 6</a></li>
+                <li><a class="nav-bar__link" href="../lukas/lukas.html">iPhone X</a></li>
+                <li><a class="nav-bar__link" href="../sytze/sytze.html">LG G6</a></li>
+                <li><a class="nav-bar__link" href="../christof/christof.html">Samsung Galaxy Note 8</a></li>
             </ul>
         </div>
     </nav>
@@ -29,7 +30,7 @@
             <h3 class="subheadline">iPhone X</h3>
             <h1 class="large-headline">Welcome!</h1>
             <div class="image__wrapper">
-                <img src="img/iphone-x.png" alt="iPhone X" />
+                <img src="img/main-image.png" alt="iPhone X" />
             </div>
         </div>
         <div class="centered">
@@ -84,11 +85,11 @@
                 <input class="input__iphone" type="text" placeholder="Name" />
                 <input class="input__iphone" type="text" placeholder="Email" />
                 <span class="input__radio first__radio">
-                    <input type="radio" name="iphone" value="Phone X" />
+                    <input id="iphone" type="radio" name="iphone" value="Phone X" />
                     <label class="input-label" for="iphone">iPhone X</label>
                 </span>
                 <span class="input__radio">
-                    <input type="radio" name="iphone" value="Phone Xs" />
+                    <input id="iphonexs" type="radio" name="iphone" value="Phone Xs" />
                     <label class="input-label" for="iphonexs">iPhone Xs</label>
                 </span>
                 <select class="input__select" name="iphoneSelect">
@@ -97,38 +98,45 @@
                     <option value="32GB">32GB</option>
                     <option value="128GB">128GB</option>
                 </select>
-                <input class="submit-button" type="submit" name="submit" value="Submit" />
+                <input class="submit-button" type="submit" name="submit" value="ORDER NOW!" />
             </form>
         </div>
     </main>
     <div class="compare-phones">
+        <h3>Better then every other phone</h3>
         <div class="comparison__wrapper">
             <div class="phone">
                 <h5>Huawei P10</h5>
-                <img src="img/placeholder/square.png" alt="Phone" />
+                <div class="image__crop">
+                    <img src="img/other-phones/huawei-p10.png" alt="Phone" />
+                </div>
             </div>
             <div class="phone">
                 <h5>Samsung Galaxy S9</h5>
-                <img src="img/placeholder/square.png" alt="Phone" />
-            </div>
-            <div class="phone">
-                <h5>OnePlus 6</h5>
-                <img src="img/placeholder/square.png" alt="Phone" />
+                <div class="image__crop">
+                    <img src="img/other-phones/s9.png" alt="Phone" />
+                </div>
             </div>
             <div class="phone">
                 <h5>LG G6</h5>
-                <img src="img/placeholder/square.png" alt="Phone" />
+                <div class="image__crop">
+                    <img src="img/other-phones/lg-g6.png" alt="Phone" />
+                </div>
             </div>
             <div class="phone">
-                <h5>Samsung Galaxy Note 8</h5>
-                <img src="img/placeholder/square.png" alt="Phone" />
+                <h5>OnePlus 6</h5>
+                <div class="image__crop">
+                    <img src="img/other-phones/one-plus-6.png" alt="Phone" />
+                </div>
+            </div>
+            <div class="phone">
+                <div class="image__crop">
+                    <h5>Samsung Galaxy Note 8</h5>
+                    <img src="img/other-phones/note-8.png" alt="Phone" />
+                </div>
             </div>
         </div>
     </div>
-    <script>
-        document.getElementById('vid').play();
-
-    </script>
 </body>
 
 </html>
