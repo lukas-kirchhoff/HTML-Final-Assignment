@@ -161,37 +161,41 @@
 			</div>
 			<div class="content-form1">	
 				<h2>Order Now!</h2>
-				<form>
-					Name:
-					<input type="text" name="name"><br>
-					Phone Number:
-					<input type="text" name="number"><br>
-					Country:
-					<input type="text" name="country"><br>
-					Address:
-					<input type="text" name="address"><br><br>
-					Color:<br>
-					<input type="radio" name="gender" value="male" checked> Midnight Black&nbsp;&nbsp;&nbsp;&nbsp;
-					<input type="radio" name="gender" value="male"> Mirror Black&nbsp;&nbsp;&nbsp;&nbsp;
-					<input type="radio" name="gender" value="male"> Silk White<br><br>
-				
-				
-				
-				
+				<form name="info" method="POST" action="" class="listitems">
+					<ul>
+						<li>Name:
+						<li><input type="text" name="name">
+						<li>Phone Number:
+						<li><input type="text" name="number">
+						<li>Country:
+						<li><input type="text" name="country">
+						<li>Address:
+						<li><input type="text" name="address">
+					</ul>	
+				</form>
+				<form name="color" method="POST" action="" class="listitems1">
+					<ul>	
+						<li>Color:
+						<li><input type="radio" name="gender" value="male" checked> Midnight Black
+						<li><input type="radio" name="gender" value="male"> Mirror Black
+						<li><input type="radio" name="gender" value="male" class="listitems"> Silk White
+					</ul>
 				</form>	
-					<form>
-					Payment Method:<br>
-					<input type="radio" name="gender" value="male" checked> Paypal<br>
-					<input type="radio" name="gender" value="male"> Ideal<br>
-					<input type="radio" name="gender" value="male"> Credit/Debit card<br><br>
-					</form>
-					<form>
-					Delivery Method:<br>
-					<input type="radio" name="gender" value="male" checked> Priority = &euro;9,99<br>
-					<input type="radio" name="gender" value="male"> Standard = Free<br>
-					</form> <br>
-					
-					<input type="submit" value="Order">
+				<form name="pay" method="POST" action="" class="listitems">
+					<ul>
+						<li>Payment Method:
+						<li><input type="radio" name="gender" value="male" checked> Paypal
+						<li><input type="radio" name="gender" value="male"> Ideal
+						<li><input type="radio" name="gender" value="male"> Credit/Debit card
+					</ul>	
+				</form>
+				<form name="deliv" method="POST" action="" class="listitems">
+					<ul>
+						<li>Delivery Method:
+						<li><input type="radio" name="gender" value="male" checked> Priority = &euro;9,99
+						<li><input type="radio" name="gender" value="male"> Standard = Free
+						<li><input type="submit" value="Order">
+					</ul>
 				</form>
 			</div>	
 		</div>	
